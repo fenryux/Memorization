@@ -83,16 +83,25 @@
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/main.cpp">
 			<Option target="memorization"/>
 		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/parser.h">
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/rapidjson">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/reader.h">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.h">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.cpp">
+			<Option target="memorization"/>
+		</Unit>
+		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.h">
 			<Option target="memorization"/>
 		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/testCard.h">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/txtParser.cpp">
-			<Option target="memorization"/>
-		</Unit>
-		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/txtParser.h">
 			<Option target="memorization"/>
 		</Unit>
 		<Unit filename="C:/Users/lonep/Documents/GitHub/Memorization/CMakeLists.txt">

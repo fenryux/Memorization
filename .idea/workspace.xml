@@ -25,11 +25,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CMakeLists.txt" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1cHFhNW9Nns31taDIw1AEhiMZjy" />
   <component name="ProjectViewState">
@@ -42,8 +49,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lonep\Documents\GitHub\Memorization" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lonep\Documents\GitHub\Memorization\cmake-build-debug" />
     </key>
@@ -70,7 +82,15 @@
       <workItem from="1590232317816" duration="71000" />
       <workItem from="1590349519063" duration="5852000" />
       <workItem from="1590384763038" duration="2945000" />
-      <workItem from="1590655259186" duration="2250000" />
+      <workItem from="1590655259186" duration="2979000" />
+      <workItem from="1590658764894" duration="980000" />
+      <workItem from="1590659765597" duration="1379000" />
+      <workItem from="1590740306355" duration="165000" />
+      <workItem from="1590743262849" duration="338000" />
+      <workItem from="1590758974566" duration="3957000" />
+      <workItem from="1590767450738" duration="4909000" />
+      <workItem from="1590781091028" duration="2807000" />
+      <workItem from="1590822134611" duration="1718000" />
     </task>
     <servers />
   </component>
@@ -86,41 +106,64 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="420" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1590352824790" />
-    <state width="1236" height="130" key="GridCell.Tab.0.bottom" timestamp="1590657270873">
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog" timestamp="1590775381808">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590657270873" />
-    <state width="1236" height="130" key="GridCell.Tab.0.center" timestamp="1590657270872">
+    <state x="93" y="93" width="1095" height="535" key="DiffContextDialog/0.0.1280.720@0.0.1280.720" timestamp="1590775381808" />
+    <state width="1236" height="182" key="GridCell.Tab.0.bottom" timestamp="1590824169136">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590657270872" />
-    <state width="1236" height="130" key="GridCell.Tab.0.left" timestamp="1590657270872">
+    <state width="1236" height="182" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590824169136" />
+    <state width="1236" height="182" key="GridCell.Tab.0.center" timestamp="1590824169136">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590657270872" />
-    <state width="1236" height="130" key="GridCell.Tab.0.right" timestamp="1590657270872">
+    <state width="1236" height="182" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590824169136" />
+    <state width="1236" height="182" key="GridCell.Tab.0.left" timestamp="1590824169136">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="130" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590657270872" />
-    <state width="1236" height="199" key="GridCell.Tab.1.bottom" timestamp="1590657263478">
+    <state width="1236" height="182" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590824169136" />
+    <state width="1236" height="182" key="GridCell.Tab.0.right" timestamp="1590824169136">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
-    <state width="1236" height="199" key="GridCell.Tab.1.center" timestamp="1590657263478">
+    <state width="1236" height="182" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590824169136" />
+    <state width="1236" height="182" key="GridCell.Tab.1.bottom" timestamp="1590824169848">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
-    <state width="1236" height="199" key="GridCell.Tab.1.left" timestamp="1590657263478">
+    <state width="1236" height="182" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590824169848" />
+    <state width="1236" height="182" key="GridCell.Tab.1.center" timestamp="1590824169848">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
-    <state width="1236" height="199" key="GridCell.Tab.1.right" timestamp="1590657263478">
+    <state width="1236" height="182" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1590824169848" />
+    <state width="1236" height="182" key="GridCell.Tab.1.left" timestamp="1590824169848">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1236" height="199" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590657263478" />
+    <state width="1236" height="182" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1590824169848" />
+    <state width="1236" height="182" key="GridCell.Tab.1.right" timestamp="1590824169848">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1236" height="182" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1590824169848" />
+    <state x="142" y="6" key="SettingsEditor" timestamp="1590659752674">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1590659752674" />
+    <state width="647" height="367" key="XDebugger.FullValuePopup" timestamp="1590776151226">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="647" height="367" key="XDebugger.FullValuePopup/0.0.1280.720@0.0.1280.720" timestamp="1590776151226" />
     <state x="297" y="161" key="run.anything.popup" timestamp="1590385911707">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1590385911707" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/readerTXT.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

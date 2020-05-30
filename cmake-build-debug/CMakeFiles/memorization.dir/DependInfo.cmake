@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/lonep/Documents/GitHub/Memorization/main.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/main.cpp.obj"
-  "C:/Users/lonep/Documents/GitHub/Memorization/txtParser.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/txtParser.cpp.obj"
+  "C:/Users/lonep/Documents/GitHub/Memorization/readerJSON.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/readerJSON.cpp.obj"
+  "C:/Users/lonep/Documents/GitHub/Memorization/readerTXT.cpp" "C:/Users/lonep/Documents/GitHub/Memorization/cmake-build-debug/CMakeFiles/memorization.dir/readerTXT.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
